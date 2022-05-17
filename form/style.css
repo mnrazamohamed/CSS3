@@ -1,0 +1,77 @@
+.hname {
+  text-decoration: underline;
+  text-align: center;
+}
+.legendname {
+  text-align: center;
+  font-size: 20px;
+}
+
+fieldset {
+  background-color: rgb(171, 233, 248);
+  height: 570px;
+  width: 500px;
+  text-align: center;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
+.fback {
+  font-weight: bold;
+}
+.textbox {
+  padding-top: 15px;
+  width: 400px;
+  height: 150px;
+  padding-left: 110px;
+}
+.textleft {
+  text-align: left;
+  float: left;
+  padding-left: 40px;
+  width: 100px;
+}
+.inputbox {
+  float: right;
+  width: 220px;
+}
+
+.gender {
+  text-align: center;
+  width: 420px;
+  padding: 0 100px 0 90px;
+}
+
+.genderleft {
+  float: left;
+  margin-right: 100px;
+}
+#male {
+  margin-left: 30px;
+}
+.male {
+  margin-right: 100px;
+}
+.subject {
+  padding-top: 20px;
+  float: left;
+}
+.checkbox {
+  padding-top: 10px;
+  float: left;
+  width: 420px;
+}
+.fsubject {
+  margin-right: 60px;
+}
+
+#submit {
+  margin-right: 12px;
+  font-size: 15px;
+}
+
+#reset {
+  margin-left: 12px;
+  font-size: 15px;
+}

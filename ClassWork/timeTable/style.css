@@ -1,0 +1,32 @@
+#hname {
+  text-align: center;
+  font-weight: bold;
+}
+.break {
+  text-align: center;
+  background-color: #40cc31;
+}
+.tablehead {
+  background-color: #3b9ded;
+}
+.time {
+  background-color: #447be2;
+}
+.lightblue {
+  background-color: #a1d8f8;
+}
+.yellow {
+  background-color: #fadc30;
+}
+.pinkred {
+  background-color: #e46060;
+}
+.purple {
+  background-color: #aa63ec;
+}
+.orange {
+  background-color: #ffae00;
+}
+.red {
+  background-color: #f80707;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UKI Student</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="hname">Uki-Student</h1>
+    <div class="content">
+      <form action="">
+        <fieldset>
+          <legend class="legendname">Uki life</legend>
+          <div class="textbox">
+            <label for="fname"> <span class="textleft">  First Name </span>:</label>
+            <input class="inputbox" type="text" name="fname" placeholder="type here" id="fname" /> <br />
+            <br />
+
+            <label for="lname"> <span class="textleft"> Password</span>:</label>
+            <input class="inputbox" placeholder="type here" type="text" name="text" id="lname" /> <br />
+            <br />
+
+            <label for="RegNo"> <span class="textleft"> Reg.No</span>  :</label>
+            <input class="inputbox" placeholder="type here" type="text" name="RegNo" id="RegNo" /> <br />
+            <br />
+
+            <label for="dob"> <span class="textleft"> Date of birth </span> : </label>
+            <input class="inputbox" placeholder="type here" type="text" name="dob" id="dob" /> <br />
+            <br />
+          </div>
+
+          <div class="gender">
+            <label > <span class="genderleft"> Gender </span>: </label>
+            <span class="male">
+              <input type="radio" id="male" name="gender" />
+              <label for="male">Male</label>
+            </span>
+            <span class="genderright">
+              <input type="radio" id="female" name="gender" />
+              <label for="female">Female</label><br /> <br />
+            </span>
+
+          <div>
+            <label class="subject"> <span class="fsubject"> Fav.Subjects </span> : </label><br /> <br /> <br>
+          <div class="checkbox">
+            <input type="checkbox" id="html" name="language1" />
+            <label for="html">Programming</label>
+            <input type="checkbox" id="css" name="language2" />
+            <label for="css">Business</label>
+            <input type="checkbox" id="javascript" name="language3" />
+            <label for="javascript">Personal coaching</label>
+            <input type="checkbox" id="javascript" name="language3" />
+            <label for="javascript">English</label> <br /> <br /> <br />
+          </div>
+          </div>
+
+          <label for="Feedback" class="fback">Feedback</label> <br />
+          <textarea name="feedback" id="feedback" rows="10" cols="30"
+          ></textarea>
+          <br /><br />
+
+          <input type="button" name="username" id="submit" value="SUBMIT" />
+          <input type="button" name="password" id="reset" value="RESET" /> <br /> <br />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

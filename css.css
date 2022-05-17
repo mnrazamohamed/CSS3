@@ -1,0 +1,256 @@
+/* 
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<img src="book.jpg" alt="book">
+<link rel="stylesheet" href="style.css" /> 
+*/
+div {
+  width: 300px;
+  border: 15px solid green;
+  border-radius: 5px;
+  padding: 50px;
+  margin: 20px;
+}
+div {
+  outline-style: solid;
+  outline-color: black;
+  outline-width: 12px;
+  outline-offset: 12px;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+/* visited link */
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
+/* selected link */
+a:active {
+  color: blue;
+}
+
+a:link,
+a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+/* <span style="cursor: auto">auto</span><br> */
+
+ul.a {
+  list-style-type: circle;
+  list-style-position: outside;
+}
+
+ul.b {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* div.fixed {
+    position: fixed; relative; absolute;
+    z-index: -1;
+} */
+
+div {
+  width: 200px;
+  height: 65px;
+  background-color: coral;
+  overflow: visible;
+  overflow: hidden;
+  overflow: scroll;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+p {
+  clear: both;
+  text-align: center;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green;
+}
+
+p {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+input[type="text"] {
+  background-color: white;
+  background-image: url("searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+h1 {
+  text-shadow: 2px 2px 5px red;
+}
+
+div {
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lavender;
+  }
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+p {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+
+/* 
+justify-content // align horizontallly - X axis
+align-items    // align vertical - Y axis
+align-content
+align-self 
+
+stretch
+flex-start
+flex-end
+space-between
+space-around
+space-evenly
+*/
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+/* 
+display: flex
+
+flex-direction: row | column | row-reverse | column-reverse
+
+justify-content: flex-start | flex-end | center | space-between | space-around
+
+align-items: flex-start | flex-end | center | baseline | stretch
+
+align-content: flex-start | flex-end | center | space-between | space-around | stretch
+
+flex-wrap: nowrap | wrap | wrap-reverse
+
+order: <number>
+flex-grow: <number>
+flex-shrink: <number> 
+*/
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* border ku veliya varathu than outline */
+
+/* 
+margin
+outline
+border
+padding
+content 
+*/
+
+/* 
+Float: left, right, none, inherit
+*/
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 200px;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
